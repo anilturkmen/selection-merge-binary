@@ -1,0 +1,16 @@
+[16,21,11,8,12,22] array Merge Sort?
+
+[16,21,11,8,12,22] -> Divided into [16,21,11] and [8,12,22].
+[16,21,11] -> Divided into [16,21] and [11].
+[16,21] -> Divided into [16] and [21].
+[8,12,22] -> Divided into [8] and [12,22].
+[12,22] -> Divided into [12] and [22].
+Now, we can start merging these subarrays:
+[16] and [21] -> [16,21]
+[11] and [8] -> [8,11]
+[12] and [22] -> [12,22]
+Finally, we merge these merged subarrays to obtain the original array:
+[8,11] and [12,22] -> [8,11,12,22]
+[16,21] and [8,11,12,22] -> [8,11,12,16,21,22]
+
+Big-O notation: O(n log n)"
