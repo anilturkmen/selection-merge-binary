@@ -1,0 +1,21 @@
+[22,27,16,2,18,6] -> Insertion Sort
+Here are the steps according to the given sorting method:
+
+[22,27,16,2,18,6]
+[16,22,27,2,18,6]
+[2,16,22,27,18,6]
+[2,16,18,22,27,6]
+[2,6,16,18,22,27]
+Big-O Notation = O(n^2)
+
+Time Complexity:
+After the array is sorted, the number 18 falls into which case?
+
+Since the number 18 is in the middle, it falls into the Average case.
+
+For the array [7,3,5,8,2,9,4,15,6], here are the first 4 steps according to Selection Sort:
+
+1st step: [2,3,5,8,7,9,4,15,6]
+2nd step: [2,3,5,8,7,9,4,15,6]
+3rd step: [2,3,4,8,7,9,5,15,6]
+4th step: [2,3,4,5,7,9,8,15,6]"
